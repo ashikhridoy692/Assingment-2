@@ -1,0 +1,344 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+/*--------starting header section--- */
+#head {
+    background-color: #2D25A0;
+    padding-bottom: 70px;
+}
+
+.all-head-body {
+    justify-content: space-between;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.left-head-side-body {
+    width: 587px;
+
+}
+
+.left-side-text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-side-text a {
+    color: white;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 500px;
+    text-decoration: none;
+    
+
+}
+
+
+.right-head-side-body {
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+.bnt a {
+    color: black;
+}
+
+.bnt button {
+    background-color: #c90c51;
+    cursor: pointer;
+    transition: 3s all ease;
+    padding: 10px 13px;
+    text-decoration: none;
+
+}
+
+.bnt button:hover {
+   
+    transition: .3s all ease;
+    color: white;
+    background-color: rgb(234, 71, 255);
+}
+
+.right-text a {
+    color: white;
+    text-decoration: none;
+    height: 24px;
+    width: 24px;
+
+}
+
+.right-text a i {
+    padding-right: 8px;
+}
+
+
+/* ---------starting-side-cornabol---------- */
+
+.cornabol-banner-details {
+    justify-content: space-between;
+    margin-top: 170px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.cornabol-side-text{
+    width: 480px;
+
+}
+
+.cornabol-side-text h1 {
+    font-size: 64px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 700;
+
+}
+
+.bnt button a {
+    color: white;
+}
+
+.bnt button {
+    background-color:rgba(212, 58, 58, 0.904);
+    transition: 3s all ease;
+    border-radius: 30px;
+    margin-top: 9px;
+}
+
+.bnt button:hover {
+    background-color: rgba(255, 71, 249, 0.858);
+    transition: .3s all ease;
+
+}
+
+.cornabol-right-side {
+
+    height: 438px;
+}
+
+.cornabol-img-frist {
+    position: relative;
+}
+
+.img-last {
+    top: 20px;
+    left: -140px;
+    position: absolute;
+   
+}
+
+/* < !-- ---------card-starting---------------- --> */
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.same {
+    padding: 12px 17px;
+    width: 325px;
+    height: 460px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.same img {
+    width: 300px;
+    height: 256px;
+    background: url(<path-to-image>), rgba(211, 211, 211, 0.205);
+
+}
+
+.same h1 {
+
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 14px 0;
+}
+
+.same p {
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.same button {
+
+    margin-top: 10px;
+    padding: 12px 15px;
+    font-size: 15px;
+    border-radius: 35px;
+    font-weight: 200;
+    background-color: rgb(55, 159, 224);
+    color:black;
+    transition: 3s all ease;
+    cursor: pointer;
+}
+
+.same button:hover {
+    background-color: rgba(217, 64, 36, 0.951);
+    transition: .3s all ease;
+
+}
+
+/* start-high-light-------- */
+.high-light-all-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+
+.high-light-detiles {
+    width: 500px;
+    height: 300px;
+
+
+}
+
+.high-light-detiles h1 {
+
+    color:black;
+
+    font-family:serif;
+    font-size: 40px;
+
+    font-weight: 800;
+}
+
+.high-light-detiles p {
+   color: black;
+
+    font-family:serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.right-high-light-img img {
+    width: 567px;
+    height: 427px;
+
+
+}
+
+/* my ccreation-------------- */
+.crete-full-body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+    gap: 30px;
+    margin-top: 80px;
+
+}
+
+.crete{
+    padding: 10px 15px;
+    width: 330px;
+    height: 470px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.crete  video{
+    width: 300px;
+    height: 256px;
+    background: url(<path-to-image>), rgba(211, 211, 211, 0.205);
+
+}
+
+.crete h1 {
+
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 14px 0;
+}
+
+.crete p {
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.crete button {
+
+
+     font-size: 16px;
+    font-weight: 200;
+    background-color: rgb(55, 159, 224);
+     color: white;
+    transition: 5s all ease;
+    cursor: pointer;
+    margin-top: 7px;
+    padding: 10px 14px;
+    border-radius: 30px;
+    
+}
+
+.crete button:hover {
+    background-color: rgba(217, 64, 36, 0.951);
+    transition: .5s all ease;
+}
+
+
+#last-part {
+    margin-top: 158px;
+}
+
+.last-part-img {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon-img img{
+    width: 40px;
+   
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
